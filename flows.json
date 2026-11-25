@@ -1,0 +1,57 @@
+[
+    {
+        "id": "bd02be79c4842c4c",
+        "type": "ui_gauge",
+        "z": "2bc31ed0e68d61cd",
+        "name": "",
+        "group": "38adb6a10ebbe4be",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Suhu (°C)",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 560,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "38adb6a10ebbe4be",
+        "type": "ui_group",
+        "name": "Monitoring & Kontro",
+        "tab": "0cb86d3fa7b7e530",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0cb86d3fa7b7e530",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5f26262de0d1ceb5",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
